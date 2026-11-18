@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+
+    // while loop = Continue some code WHILE the condition remains true
+    //                condition must be true for us to enter while loop
+
+    char name[50] = "";
+
+    printf("Enter your name: ");
+    fgets(name, sizeof(name), stdin);
+    name[strlen(name)-1] = '\0';
+    
+    while (strlen(name) == 0)
+    {
+        printf("Name cannto be empty! Pelase enter your name: ");
+        fgets(name, sizeof(name), stdin);
+        name[strlen(name)-1] = '\0';
+    }
+    
+    printf("Hello %s", name);
+
+    return 0;
+    
+}
