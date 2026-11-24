@@ -1,6 +1,6 @@
 # Learn C
 
-En este repositorio lo que haremos sera ver el video "C Programming Full Course for free", haciendo sus clases y sus proyectos propuestos
+En este repositorio subiremos todos los ejercicios pequeños y practicas que hago para practicar c y tambien las clases y proyectos de videos de youtube
 
 A demas haremos proyectos pequeños como LeetCode o programar algoritmos dados en clases de Ingenieria Informática :>
 
